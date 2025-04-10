@@ -4,7 +4,9 @@ from get_data import get_data_with_id, get_all_bear_id_data, get_all_bear_type_d
 from del_data import del_bear_with_id
 from update_data import update_data_with_id
 from const_data import ARR_TYPE_BEAR,URL
+from main import preparing_data
 
+preparing_data()
 
 class TestClass:
     SESSION = requests.Session()
